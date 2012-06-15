@@ -1,0 +1,32 @@
+* {
+	float: none;
+}
+
+body, .wrapper {
+	width: auto;
+	height: auto;
+}
+
+#sidebar, #footer {
+	display: none;
+}
+
+h1 {
+	font-size: 1em;
+	width: auto;
+	height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+a:link, a:visited {
+	text-decoration: underline;
+	color: #0000CC;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+	color: #660066;
+}

@@ -3,19 +3,25 @@ body {
 	padding: 0;
 	background: #273555 url(images/wrapper-bg.png) repeat;
 	font-family: 'Unkempt', cursive;
-	font-size: 14px;
+	font-size: 87.5%;
 	color: #FFFFFF;
+	width: auto;
+	height: auto;
+	float: left;
 }
 
 h1, h2, h3 {
-	margin: 0px;
-	padding: 0px;
+	margin: 0%;
+	padding: 0%;
 	font-family: 'Annie Use Your Telescope', cursive;
 	font-weight: 400;
+	width: auto;
+	height: auto;
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 150%;
+	font-weight: bold;
 }
 
 h2 {
@@ -23,7 +29,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.6em;
+	font-size: 164.3%;
 }
 
 p, ul, ol {
@@ -42,13 +48,17 @@ a {
 a:hover {
 }
 
+img {
+	max-width: 100%;
+}
+
 img.border {
-	border: 6px solid #E1F1F6;
+	border: 37.5% solid #E1F1F6;
 }
 
 img.alignleft {
 	float: left;
-	margin-right: 25px;
+	margin-right: 178%;
 }
 
 img.alignright {
@@ -56,21 +66,24 @@ img.alignright {
 }
 
 img.aligncenter {
-	margin: 0px auto;
+	margin: 0% auto;
 }
 
 #wrapper {
 	overflow: hidden;
-	margin: 0px auto;
+	width: auto;
+	margin: auto;
 	background: url(images/dexter_bg_index1.jpg) no-repeat left top;
+	float: left;
 }
 
 /* Header */
 
 #header {
 	overflow: hidden;
-	width: 900px;
-	height: 100px;
+	width: auto;
+	height: auto;
+	text-align: center;
 	margin: 0 auto;
 }
 
@@ -78,15 +91,19 @@ img.aligncenter {
 
 #logo {
 	float: left;
-	height: 60px;
+	height: auto;
+	width: auto;
 	margin: 0;
-	padding: 0px 0px 0px 0px;
+	padding-top:10px;
+	padding: 0% 0% 0% 0%;
 	color: #FFFFFF;
 }
 
 #logo h1, #logo p {
 	margin: 0;
 	padding: 0;
+	height: auto;
+	width: auto;
 }
 
 #logo h1 {
@@ -96,6 +113,8 @@ img.aligncenter {
 	text-transform: lowercase;
 	font-family: 'Annie Use Your Telescope', cursive;
 	font-size: 64px;
+	height: auto;
+	width: auto;
 }
 
 #logo span {
@@ -113,29 +132,32 @@ img.aligncenter {
 /* Menu */
 
 #menu {
-	width: 820px;
+	width: auto;
 	height: 60px;
 	margin: 0 auto;
-	padding: 0px 40px;
+	padding: 0% 40px;
 }
 
 #menu ul {
 	margin: 0;
-	padding: 0px 0px 0px 0px;
+	padding: 0% 0% 0% 0%;
 	list-style: none;
 	line-height: normal;
+	width: auto;
 }
 
 #menu li {
 	float: left;
+	width: auto;
 }
 
 #menu a {
 	display: block;
 	height: 40px;
+	width: auto;
 	margin-right: 1px;
-	padding: 20px 20px 0px 20px;
 	text-decoration: none;
+	padding: 20px 20px 0% 20px;
 	text-transform: uppercase;
 	font-family: 'unkempt', cursive;
 	font-size: 16px;
@@ -156,18 +178,22 @@ img.aligncenter {
 
 #page {
 	overflow: hidden;
-	width: 900px;
-	margin: 0px auto;
+	width: auto;
+	height: auto;
+	margin: 0% auto;
 	padding: 50px 40px;
 	background: url(images/page-content-bg.png) repeat; 
+}
+
+#post {
+	width: auto;
+	height: auto;
 }
 
 /* Footer */
 
 #footer {
-	width: 900px;
-	height: 140px;
-	margin: 0px auto;
+	margin: 0% auto;
 	background: url(images/footer-shadow-bg.png) no-repeat left top;
 }
 
