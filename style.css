@@ -190,6 +190,28 @@ img.aligncenter {
 	height: auto;
 }
 
+/* Form */
+
+#form {
+	width: 100%;
+}
+
+#input {
+	border: 1px solid #ccc;
+	display: block;
+	outline: none;
+}
+
+/* Table */
+
+table {
+	border-collapse: collapse;
+}
+
+table td, table th {
+	padding: 9px;
+}
+	
 /* Footer */
 
 #footer {

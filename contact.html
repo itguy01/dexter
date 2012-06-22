@@ -28,7 +28,40 @@
 	</div>
 	<!-- end #menu -->
 	<div id="page">
-		Content Forthcoming
+		<h2>Please fill out the following information to contact us:</h2>
+		<p></p>
+		<form>
+			<label>Who are you?</label><br />
+			<input name="firstName" type="text" placeholder="First Name" required />
+			<input name="lastName" type="text" placeholder="Last Name" required /><br />
+			<p></p>
+			<label>How do we contact you?</label><br />
+			<input name="emailaddress" type="email" name="emailaddress" placeholder="anything@example.com" required /><br />
+			<p></p>
+			<label>What is your favorite character?</label><br />
+            <input id="character" type="text" name="character" siz="40" list="characters" />
+            <datalist id="characters">
+            	<option value="Dexter">
+            	<option value="Debra">
+            	<option value="Harry">
+            	<option value="Maria LaGuerta">
+            	<option value="Vince Masuka">
+            	<option value="Rita Bennett">
+            	<option value="Other">
+            </datalist><br />
+            <p></p>
+            <label>What is your favorite season?</label><br />
+            <select>
+            	<option value="Season 1">Season 1</option>
+            	<option value="Season 2">Season 2</option>
+            	<option value="Season 3">Season 3</option>
+            	<option value="Season 4">Season 4</option>
+            	<option value="Season 5">Season 5</option>
+            	<option value="Season 6">Season 6</option>
+            </select><br />
+            <p></p>
+            <input name="submit" type="submit" value="Submit">
+		</form>
 	</div>
 	<div id="footer">
 	<p>2012. Dexter Fan Club. All rights reserved. </p>
